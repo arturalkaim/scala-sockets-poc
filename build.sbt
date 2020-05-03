@@ -12,7 +12,8 @@ scalacOptions ++= Seq("-deprecation", "-feature", "-Yrangepos", "-Ywarn-unused")
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-http" % "10.1.10",
   "com.typesafe.akka" %% "akka-http-spray-json" % "10.1.10",
-  "com.typesafe.akka" %% "akka-stream" % "2.5.26"
+  "com.typesafe.akka" %% "akka-stream" % "2.5.26",
+  "io.spray" %%  "spray-json" % "1.3.5"
 )
 
 Revolver.settings

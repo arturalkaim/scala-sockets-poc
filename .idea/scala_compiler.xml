@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="akka-ws-test_4386" />
+    <profile name="sbt 2" modules="akka-ws-test">
+      <option name="deprecationWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-Yrangepos" />
+        <parameter value="-Ywarn-unused" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/org.scalameta/semanticdb-scalac_2.13.0/jars/semanticdb-scalac_2.13.0-4.3.0.jar" />
+      </plugins>
+    </profile>
+  </component>
+</project>
